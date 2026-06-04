@@ -10,3 +10,8 @@ region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"production\""
 image_repositories = []
+
+
+disable_rollback = false
+confirm_changeset = false
+fail_on_empty_changeset = false
